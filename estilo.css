@@ -7,7 +7,7 @@ body{
 
 
     /* imagem de fundo */
-    background-image: url('background.jpg');
+    background-image: url('./imagens/background.jpg');
 
     /* não ficar repetindo a imagem */
     background-repeat: no-repeat;
