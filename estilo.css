@@ -1,0 +1,17 @@
+body{
+
+    /* imagem de fundo */
+    background-image: url('Gemini_Generated_Image_l8nh6ql8nh6ql8nh.jpg');
+
+    /* não ficar repetindo a imagem */
+    background-repeat: no-repeat;
+
+    /* deixa a imagem cobrindo a tela toda proporcionamente */
+    background-size: cover;
+
+    /* imagem centralizada */
+    background-position: center center;
+
+    /* mantém imagem fixa ao rolar o site */
+    background-attachment: fixed;
+}
