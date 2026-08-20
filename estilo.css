@@ -1,7 +1,13 @@
 body{
+    max-width: 800px;
+    margin: 32px auto;
+    padding: 0 16px;
+    line-height: 1.6;
+
+
 
     /* imagem de fundo */
-    background-image: url('Gemini_Generated_Image_l8nh6ql8nh6ql8nh.jpg');
+    background-image: url('background.jpg');
 
     /* não ficar repetindo a imagem */
     background-repeat: no-repeat;
@@ -14,4 +20,24 @@ body{
 
     /* mantém imagem fixa ao rolar o site */
     background-attachment: fixed;
+}
+
+header {
+    text-align: center;
+    padding-top: 90px;
+    padding-bottom: 16px;
+    border-bottom: 2px solid #ccc;
+}
+
+section {
+    /* cor de fundo das sections */
+    background: lightblue;
+    /*Espacaçamento dentro das sections*/
+    padding: 16px 24px;
+
+    margin: 24px 0;
+    /* arredonda os cantos das sections */
+    border-radius: 8px;
+    /* adiciona sombra as sections*/
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
 }
