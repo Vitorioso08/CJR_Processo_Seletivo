@@ -24,14 +24,14 @@ body{
 
 header {
     text-align: center;
-    padding-top: 90px;
+    padding-top: 130px;
     padding-bottom: 16px;
     border-bottom: 2px solid #ccc;
 }
 
 section {
     /* cor de fundo das sections */
-    background: lightblue;
+    background: rgba(173, 216, 230, 0.783);
     /*Espacaçamento dentro das sections*/
     padding: 16px 24px;
 
@@ -40,4 +40,30 @@ section {
     border-radius: 8px;
     /* adiciona sombra as sections*/
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+
+.imagem-botão {
+    width: 20px;
+    height: auto;
+    border-radius: 12px;
+
+    /* Remove espaços invisíveis abaixo da imagem */
+    display: block;
+}
+
+.button {
+    /* tira o fundo */
+    background: transparent !important; 
+    
+    /* tira a borda*/
+    border: none !important;            
+    
+    /* Remove espaços internos */
+    padding: 0;                         
+    
+    /* cursor vira "mãozinha" qnd passa por cima do ícone */
+    cursor: pointer;                    
+    
+    /* Faz o mouse virar a "mãozinha" de clique */
+    outline: none;                      
 }
