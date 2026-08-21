@@ -31,9 +31,8 @@ header {
 
 .section-header {
     background-color: rgba(173, 216, 230, 0.783);
-    padding-top: 15px !important;    /* Quase encosta no topo da imagem */
-    padding-bottom: 15px !important; /* Diminui o espaço na parte de baixo */
-    height: auto !important;
+    padding-top: 10px;
+    
     
 }
 
